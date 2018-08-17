@@ -1,0 +1,206 @@
+table {
+	width: 100%;
+	border-collapse: collapse;
+	background: #fff;
+
+}
+
+table td {
+	width: 20%;
+	border: 1px solid #ccc;
+	padding: 10px;
+	background: #fff;
+}
+
+table thead td {
+	background: #ccc;
+	border-color: #000;
+	text-align: center;
+}
+
+.section .tabs_custom{
+	margin-bottom: 50px;
+	text-align: center;
+	font-size: 0;
+}
+
+.light {
+	color: red;
+}
+
+.tabs_custom .active {
+	border-top: 1px solid #fff;
+	border-right: 1px solid #fff;
+	border-left: 1px solid #fff;
+	border-radius: 6px 6px 0 0;
+	border-bottom: none;
+}
+
+.tabs_custom li {
+	display: inline-block;
+	color: #fff;
+	cursor: pointer;
+	padding: 5px 5px 0 5px;
+	font-size: 18px;
+	border-bottom: 1px solid #fff;
+}
+
+
+.tabs__content {
+  display: none; 
+}
+
+.tabs__content.active {
+  display: block; 
+}
+
+.main {
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.section {
+	padding-top: 50px;
+}
+
+
+.attention {
+	color: #000;
+	background: rgba(255,255,255,0.80);
+	padding: 20px 0;
+	text-align: center;
+}
+
+ body {
+    background: url(img/books.jpg) no-repeat center center;
+    -moz-background-size: cover; 
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
+	padding: 0px;
+	position: relative;
+ }
+
+ @media only screen and (max-width:1200px) {
+	body {
+		/*background: url(img/piper1.jpg) repeat;*/
+		background: url(img/piper2.png) repeat;
+	}
+ }
+
+ 
+
+.form-css {
+	margin: 80px auto;
+	max-width: 500px;
+}
+
+.tabs {
+	margin-top: 80px;
+}
+.filltable {
+	margin-top: 30px;
+}
+
+.pagination {
+	/*max-width: 400px;*/
+    margin: 20px 0;
+}
+
+.pagination  .page-link {
+	color: #fff;
+}
+
+.pagination  .page-link:hover {
+	color: #906d4d;
+}
+
+.pagination  .page-link:focus {
+	color: #fff;
+}
+
+.show_number select {
+	display: inline-block!important;
+}
+
+.show_number {
+	margin-top: 45px;
+}
+
+.show_number .btn-ok {
+	padding: 6px!important;
+	margin: 0px!important;
+}
+
+.mdb-select {
+	height: 46px;
+}
+
+footer {
+	background: #906d4d;
+    min-height: 64px;
+    /*position: fixed;
+    bottom: 0;*/
+    width: 100%;
+    color: #fff;
+    display: table!important;
+}
+
+footer .container {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+footer p {
+	margin-bottom: 0;
+}
+
+.fon {
+	min-height: 800px;
+	//background-color: rgba(144, 109, 77, 0.4);
+}
+
+.light_world {
+	color: #FF0000;
+}
+
+.table_result {
+	padding-bottom: 50px;
+}
+
+.wrap_forms {
+	margin-bottom: 40px;
+}
+
+.form_full {
+	text-align: center;
+}
+
+.btn_post {
+	position: relative;
+	top: -60px;
+}
+
+.main-text {
+	margin-top: 250px;
+    padding: 20px;
+    background: #C8AD94;
+	box-shadow: -4px 4px 68px -9px rgba(0,0,0,0.89);
+}
+
+.main-text p {
+	color: #000; 
+	text-align: center;
+}
+
+.main-text p a {
+	color: #fff;
+}
